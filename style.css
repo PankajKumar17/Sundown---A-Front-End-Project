@@ -167,7 +167,6 @@ body{
     font-weight: 600;
     line-height: .8;
     position: relative;
-    z-index:2;
 }
 
 
@@ -180,7 +179,6 @@ body{
     bottom: auto;
     left: auto;
     right: 0%;
-    z-index:1;
     /* animation: rot infinite; */
 }
 
@@ -361,6 +359,7 @@ body{
 
 .heading{
     width: 58vw;
+    z-index:2;
 }
 .heading>h1{
     letter-spacing: -0.04em;
@@ -377,7 +376,7 @@ body{
     left: 30%;
     height: 36vw;
     width: 36vw;
-    z-index: -1;
+    z-index: 1;
 }
 .shp1{
     position: absolute;
